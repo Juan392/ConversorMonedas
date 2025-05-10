@@ -16,7 +16,7 @@ public class EjecutarAccion {
         //Aniado a la lista los valores recibidos y los mando a la terminal
         historial.add(mon);
         //Y cuandotodo se ejecuta simplemente mando a immprimir el resultado
-        System.out.println("mon = " + mon);
+        System.out.println(mon);
         try {
             FileWriter historialMonedas = new FileWriter("historial.txt");
                     historialMonedas.write(String.valueOf(historial));
