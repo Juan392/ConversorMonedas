@@ -18,7 +18,7 @@ public class menu {
                         Bienvenido al sistema de conversor de monedas.
                         ********************************************
                         Escoga su opcion:
-                        1.Perso Argentino a Dolar.
+                        1.Peso Argentino a Dolar.
                         2.Dolar a Peso Argentino.
                         3.Boliviano Boliviano a Dolar.
                         4.Dolar a Boliviano Boliviano.
