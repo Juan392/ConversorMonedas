@@ -2,7 +2,6 @@ package conexiones;
 
 
 import com.google.gson.GsonBuilder;
-import principal.Moneda;
 import principal.MonedaC;
 
 import java.io.IOException;
@@ -14,7 +13,7 @@ import java.net.http.HttpResponse;
 
 public class ConexionAPI {
     //Se crea una conexion con el cliente y el sevidor usando HTTP
-    static MonedaC ConexionCaS(URI direccion, int opcion){
+    static MonedaC ConexionCaS(URI direccion){
         var gson = new GsonBuilder()
                 .setPrettyPrinting()
                 .create();
