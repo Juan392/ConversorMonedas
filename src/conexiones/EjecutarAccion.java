@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.List;
 
 public class EjecutarAccion {
-    public static void ejecucion(int opcion,double cantidad, List historial){
+    public static void ejecucion(int opcion, double cantidad, List historial){
         //Llamo a la funcion dirrecion para crear la direccion
         var direccion = CrearDireccion.direccion(opcion);
         //Aqui tomo el valor retornado en ConexionApi y lo mando al conversor

@@ -6,7 +6,7 @@ import principal.calculos.ExtranjeraANacional;
 import principal.calculos.NacionalAExtranjera;
 
 public class TipoMoneda {
-    public static Moneda filtroConversion(MonedaC moneda, int opcion,double cantidad) {
+    protected static Moneda filtroConversion(MonedaC moneda, int opcion,double cantidad) {
         double tipo = 0;
         double conversion = 0;
         Moneda newMon = null;
@@ -37,9 +37,9 @@ public class TipoMoneda {
                 newMon = new Moneda(tipo,conversion,"USD");
             }
             case 6 -> {
-                tipo = moneda.conversion_rates().get("BRS");
+                tipo = moneda.conversion_rates().get("BRL");
                 conversion = ExtranjeraANacional.convertir(tipo,cantidad);
-                newMon = new Moneda(tipo,conversion,"BRS");
+                newMon = new Moneda(tipo,conversion,"BRL");
             }
         }
         return newMon;

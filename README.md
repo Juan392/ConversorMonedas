@@ -7,7 +7,9 @@ Este es un proyecto de Java que permite convertir entre diferentes monedas de fo
 - Conversión entre monedas(Actualmente limitado a USD, BOB, ARS, BRS).
 - Resultados instantáneos y precisos(Muy precisos).
 - Menu interactivo con el usuario con 8 opciones.
-- ![image](https://github.com/user-attachments/assets/97d3a387-6199-4af8-ad48-decce50c1f21)
+  
+- ![image](https://github.com/user-attachments/assets/f80b8bc6-4d90-4a68-b77e-5e5de4519033)
+
 
 
 ## 🛠️ Tecnologías
@@ -21,11 +23,16 @@ Este es un proyecto de Java que permite convertir entre diferentes monedas de fo
 
 1. Clona este repositorio:
    Si puede optar por esta opcion seria lo ideal.
+   
    En intelliJ IDEA:
+   
    Dirigirse a File -> New -> Proyect from version Control.
+   
    ![image](https://github.com/user-attachments/assets/25fb92d2-0899-44cb-9333-9821e48194d7)
 
    Pegar este Link: https://github.com/Juan392/ConversorMonedas.git
+   
    ![image](https://github.com/user-attachments/assets/feaff499-0a18-498b-b3d1-db060b17f418)
+   
    Nota: Si no puedes clonar el repositorio es posible que la carpeta que estes eligiendo este llena.
    Si es asi crea una carpeta nueva y clona el repositorio ahi.

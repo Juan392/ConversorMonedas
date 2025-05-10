@@ -13,7 +13,7 @@ import java.net.http.HttpResponse;
 
 public class ConexionAPI {
     //Se crea una conexion con el cliente y el sevidor usando HTTP
-    static MonedaC ConexionCaS(URI direccion){
+    protected static MonedaC ConexionCaS(URI direccion){
         var gson = new GsonBuilder()
                 .setPrettyPrinting()
                 .create();

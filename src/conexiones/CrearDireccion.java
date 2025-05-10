@@ -3,7 +3,7 @@ package conexiones;
 import java.net.URI;
 
 public class CrearDireccion {
-    public static URI direccion(int opcion){
+    protected static URI direccion(int opcion){
         //Creo un switch con las distintas opciones
         String tipo = "";
         switch(opcion){
