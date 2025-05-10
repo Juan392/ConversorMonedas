@@ -1,0 +1,9 @@
+[
+Conversion: 
+	Moneda='USD'
+	Cambio=$8.98E-4
+	Cantidad= $191.385352, 
+Conversion: 
+	Moneda='USD'
+	Cambio=$0.1443
+	Cantidad= $189.61020000000002]
